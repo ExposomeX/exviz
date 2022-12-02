@@ -1,24 +1,25 @@
 Package: exviz
-Title: Data visualization of different statistical and biological analysis.
+Title: Visualize data of different statistical and biological analysis.
 Version: 1.0.0
 Authors@R: 
-    c(person(given='ning',
+    c(
+    person(given='Ning',
     family = 'Gao',
     role= c('aut','cre'),
     email = "gaoning@pku.edu.cn"),
     person(given='bin',
     family = 'Wang',
     role= c('aut','cph'),
-    email = "binwang@pku.edu.cn"))
-Description: For the data visualization of different statistical and biological analysis in a user friendly and easy way, 
-    including four typical classes of visualization.The visualization of the high dimension data is also very useful for 
-    the users in the field.The data visualization of different statistical analysis as well as the biological interaction 
-    can save much time for the data interpretation. Here, we mainly classify all the visualization task into four types,
-    including category (distinguishing the characteristics of various groups), relationship (statistical relationship 
-    between various features), distribution (the distribution characters of the single or multiple factors), 
-    and components (the inclusion relationship between the part components and the whole). 
+    email = "binwang@pku.edu.cn")
+    )
+Description: To visualize data of different statistical and biological analysis 
+    in a user friendly and easy way, including four typical classes of 
+    visualization. The visualization of the high dimension data is also very 
+    useful for the users in the field. The data visualization of different 
+    statistical analysis as well as the biological interaction can save much 
+    time for the data interpretation.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
-Imports: httr,vroom,gridExtra,GGally,ggplot2,readxl,ddpcr
+RoxygenNote: 7.2.0
+Imports: ddpcr,furrr,GGally,ggplot2,ggraph,gridExtra,Hmisc,igraph,readxl,wesanderson
