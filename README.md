@@ -64,13 +64,13 @@ Users can install the package using the following code:
 	                  Method="ln")
 
 ##### 4. Plot category plot via dot plot
-  res7 = VizCateDot(PID = res$PID,
+	res7 = VizCateDot(PID = res$PID,
                     Group = "F",
                     Vars = "X4,X5,X6,X7,X8,X9,X10",
                     Parameter = "mean",
                     Brightness = "light",
                     Palette = "default1")
-  res7$Cate_Dot$light_default1
+	res7$Cate_Dot$light_default1
 
 ##### 5. Plot relationship plot via network plot
 	res8 = VizRelatNetwork(PID = res$PID,
@@ -105,7 +105,7 @@ Users can install the package using the following code:
                           Method = "spearman",
                           Brightness = "light",
                           Palette = "default1")
-res10$Relat_Heatmap$light_default1
+	res10$Relat_Heatmap$light_default1
 
 ##### 8. Plot relationship plot via matrix plot
 	res11 = VizRelatMatrix(PID = res$PID,
@@ -114,7 +114,7 @@ res10$Relat_Heatmap$light_default1
                          VarsY = "Y2",
                          VarsX = "X1,X4,X5,X6,X7,X8,X9,X10",
                          Method = "spearman")
-res11$Relat_Matrix$ALL
+	res11$Relat_Matrix$ALL
 
 ##### 9. Plot distribution plot via sierra plot
 	res12 = VizDistrSierra(PID=res$PID,
@@ -123,7 +123,7 @@ res11$Relat_Matrix$ALL
                          Vars = "X14,X15,X16,X17,X18,X19,X20",
                          Brightness = "light",
                          Palette = "default1")
-  res12$Sierra$light_default1
+	res12$Sierra$light_default1
 
 ##### 10. Plot component plot via dendrogram plot
 	res13 = VizCompoDendrogram(PID = res$PID,
@@ -136,7 +136,7 @@ res11$Relat_Matrix$ALL
                              ClusterNum = "4",
                              Brightness = "light",
                              Palette = "default1")
-res13$Dendrogram$all_light_default1
+	res13$Dendrogram$all_light_default1
 
 ##### 11. Exit
 	FuncExit(PID = res$PID)
